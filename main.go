@@ -1,15 +1,14 @@
 package main
 
 import (
+	"PROJECT/channelTest"
 	"fmt"
-
-	"project"
-	"project/none"
 )
 
 func main() {
 	fmt.Println("hello")
-	project.Project()
-	none.NonoFunc()
-
+	/*	project.Project()
+		none.NonoFunc()*/
+	//channelTest.MainFUNC1()
+	channelTest.MainFUNC2()
 }
