@@ -1,7 +1,7 @@
 package main
 
 import (
-	"PROJECT/channelTest"
+	"PROJECT/websever"
 	"fmt"
 )
 
@@ -10,5 +10,8 @@ func main() {
 	/*	project.Project()
 		none.NonoFunc()*/
 	//channelTest.MainFUNC1()
-	channelTest.MainFUNC2()
+	//channelTest.MainFUNC2()
+	//channelTest.MainFUNC3()
+	//websever.SimpleWebServer()
+	websever.HttpClientFUNC()
 }
